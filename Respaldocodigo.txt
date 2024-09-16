@@ -1,0 +1,14 @@
+//function createUser(data) {
+//     try {
+        mongoose
+        .connect(API_BACKEND)
+        .then(async ()=>{
+            const alta = CreateModel()
+            const newUser = await alta.create(data)
+            return  newUser})
+        
+    } catch (error) {
+        console.log(error)
+    } 
+    
+}
