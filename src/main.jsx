@@ -6,6 +6,7 @@ import Post from './pages/Post.jsx'
 import './index.css'
 import Login from './pages/Login.jsx'
 import SignUp from './pages/SignUp.jsx'
+import Registro from './pages/Registro.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path:"/post",
     element:<Post />
+  },{
+    path:"/registro/:id",
+    element:<Registro/>
+
   }
 ])
 

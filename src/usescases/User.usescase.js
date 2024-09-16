@@ -9,26 +9,20 @@ import CreateModel from "../models/User.models.js"
 const API_BACKEND=`http://localhost:5173`
 
 export default async function userDevto(data){
-    const newUser = CreateModel()
+    const user = CreateModel()
     console.log(data)
-    let response = await fetch(`${API_BACKEND}/login/${data}`,{
+    let response = await fetch(`${API_BACKEND}/registro/${data}`,{
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(data),
     }).then(async ()=>{
         const result= await response.json()
-        newUser.create(result)
+        const newUser = await  user.create(result)
         console.log(result)
+        return newUser;
     })
-    
-
-    return newUser;
 }
     
 
 
 
-
- //const res = userDevto({ email: "gcespedeslnx@yahoo.com", password: "dasa" });
-
-//console.log(res)

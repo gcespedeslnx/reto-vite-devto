@@ -4,7 +4,7 @@ import { FaDev } from "react-icons/fa";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import userDevto from "../usescases/User.usescase.js";
-
+//import CreateModel from "../models/User.models.js";
 export default function Login() {
   const {register,
          handleSubmit,
@@ -14,10 +14,12 @@ export default function Login() {
 
 
   async function onSubmit(data){
-    const user = await userDevto(data)
- 
-    navigate("/")
-    return user;
+    //const user = CreateModel()
+    
+    const newUser = userDevto(data)
+     
+    navigate("/post")
+    return newUser;
 
   }
   return (
@@ -59,7 +61,7 @@ export default function Login() {
           </div>
 
          <div className="flex justify-center w-auto pt-2">
-          <input type= "password"className="flex w-1/4 items-center border border-neutral-300
+          <input type= "password" className="flex w-1/4 items-center border border-neutral-300
            text-black font-semibold text-xs py-2 px-4 rounded hover:bg-gray-200"
            placeholder="Password"
            {...register("password",{

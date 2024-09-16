@@ -1,5 +1,6 @@
 # node_modules
 ./node_modules
+./Respaldocodigo.txt
 # Logs
 logs
 *.log
