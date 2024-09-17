@@ -20,7 +20,13 @@ export default function NavBar() {
       <div className="col-span-1">
         {/* Este boton es el de 'login' */}
         <button className="border border-neutral-300 rounded m-2 p-2 text-blue-500 font-bold hover:bg-blue-600 hover:text-white">
-          Create Post
+          Login
+        </button>
+      </div>
+      <div className="col-span-1">
+        {/* Este boton es el de 'login' */}
+        <button className="border border-neutral-300 rounded m-2 p-2 text-blue-500 font-bold hover:bg-blue-600 hover:text-white">
+          Create Account
         </button>
       </div>
       <div

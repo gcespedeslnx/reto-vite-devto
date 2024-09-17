@@ -348,7 +348,7 @@ export default function MainPage() {
                 <div className="flex">
                   <img
                     className="size-7 rounded"
-                    src="src/images/https___dev-to-uploads.s3.amazonaws.com_uploads_organization_profile_image_1_d908a186-5651-4a5a-9f76-15200bc6801f.avif"
+                    src="./img/dev.avif"
                     alt=""
                   />
                 </div>
