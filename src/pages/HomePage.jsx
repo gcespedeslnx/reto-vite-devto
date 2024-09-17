@@ -343,8 +343,7 @@ export default function MainPage() {
               />
             </div>
             <div className="items-start w-full px-5 pb-5">
-              <h2 className="font-bold text-lg">New thing</h2>
-              <img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F00s8uctceo8kh9mndajn.png" alt="" />
+              <h2 className="font-bold" alt="" />
               
               <div className="border border-stone-300 p-2 rounded grid grid-flow-col justify-start">
                 <div className="flex">
@@ -357,6 +356,12 @@ export default function MainPage() {
                 <div className="flex-row w-full">
                   <p className="font-bold text-lg">Introducing DEV ++</p>
                   <p className="text-sm">
+                    <img
+                    className="size-7 rounded"
+                    src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F00s8uctceo8kh9mndajn.png"
+                    alt=""
+                  />
+
                     Ben Halpern for The DEV Team -Aug 29
                   </p>
                   <div className="">
