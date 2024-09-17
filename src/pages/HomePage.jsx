@@ -385,11 +385,7 @@ export default function MainPage() {
             />
             <div className="pt-2 flex flex-row">
               <div className="flex ml-5">
-                <img
-                  className="size-7 rounded"
-                  src="src/images/https___dev-to-uploads.s3.amazonaws.com_uploads_organization_profile_image_9423_69191449-e29c-406b-ba64-3dcdf3b4026a.avif"
-                  alt=""
-                />
+                
               </div>
               <div className="flex-col">
                 <p className="text-sm">
