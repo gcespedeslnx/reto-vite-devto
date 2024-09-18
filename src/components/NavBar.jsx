@@ -1,5 +1,7 @@
 import { CgBell } from "react-icons/cg";
 import { HiArrowCircleUp } from "react-icons/hi";
+import { Link } from "react-router-dom";
+
 
 export default function NavBar() {
   return (
@@ -19,15 +21,19 @@ export default function NavBar() {
       </div>
       <div className="col-span-1">
         {/* Este boton es el de 'login' */}
+        <Link to={`/login`}>
         <button className="border border-neutral-300 rounded m-2 p-2 text-blue-500 font-bold hover:bg-blue-600 hover:text-white">
           Login
         </button>
+        </Link>
       </div>
       <div className="col-span-1">
-        {/* Este boton es el de 'login' */}
+        {/* Este boton Create Account */}
+        <Link to={`/signup`}>
         <button className="border border-neutral-300 rounded m-2 p-2 text-blue-500 font-bold hover:bg-blue-600 hover:text-white">
           Create Account
         </button>
+        </Link>
       </div>
       <div
         style={{

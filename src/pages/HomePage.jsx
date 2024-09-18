@@ -356,9 +356,9 @@ export default function MainPage() {
                 <div className="flex-row w-full">
                   <p className="font-bold text-lg">Introducing DEV ++</p>
                   <p className="text-sm">
-                    <img
+                    <img src="../img/dev.png"
                     className="size-7 rounded"
-                    src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F00s8uctceo8kh9mndajn.png"
+                    
                     alt=""
                   />
 
