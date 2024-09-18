@@ -444,11 +444,11 @@ export default function MainPage() {
                   </a>{" "}
                   1 day ago
                 </p>
-                <p>Nice, and amazing post</p>
-                <img src="https://media.dev.to/cdn-cgi/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwixrm7ejmrua4su7agha.jpg" alt="" />
-              </div>
+                <p><h5>50 for FOSS needs your help </h5></p>
+                </div>
               
             </div>
+            
             <div className="bg-neutral-200 border text-md p-2 m-2 rounded ml-5 mr-5">
               <div className="p-2 m-2">
                 <p className="">

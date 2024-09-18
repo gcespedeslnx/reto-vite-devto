@@ -9,7 +9,7 @@ export default function Login() {
   const {register,
          handleSubmit,
          formState:{errors,},
-         setError,} = useForm();
+         } = useForm();
   const navigate = useNavigate()
 
 
@@ -18,7 +18,7 @@ export default function Login() {
     
     const newUser = userDevto(data)
      
-    navigate("/post")
+    navigate("/")
     return newUser;
 
   }
