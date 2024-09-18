@@ -347,24 +347,18 @@ export default function MainPage() {
               
               <div className="border border-stone-300 p-2 rounded grid grid-flow-col justify-start">
                 <div className="flex">
-                  <img
-                    className="size-7 rounded"
-                    src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F00s8uctceo8kh9mndajn.png"
-                    alt=""
-                  />
+                
                 </div>
                 <div className="flex-row w-full">
                   <p className="font-bold text-lg">Introducing DEV ++</p>
-                  <img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F00s8uctceo8kh9mndajn.png"
-                    className="size-7 rounded"
-                    
-                    alt=""
-                  />
+                  
                   <p className="text-sm">
-
-
                     Ben Halpern for The DEV Team -Aug 29
                   </p>
+                  <img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F00s8uctceo8kh9mndajn.png"
+                    className="size-7 rounded"                  
+                    alt=""
+                  />
                   <div className="">
                     <a href="">#meta</a>
                     <a href="">#news</a>
@@ -403,6 +397,7 @@ export default function MainPage() {
             </div>
             <div className="text-xl font-bold ml-5">
               <h1>How to Build Frontend Apps 10x Faster</h1>
+              <img src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fax192ydsfgxqbgnxollc.jpg" alt="" />
             </div>
             <div className="flex ml-5">
               <a href="">#opensource</a>
@@ -431,6 +426,7 @@ export default function MainPage() {
                   <a href="">Rambevha Dakalo</a> 20 hours ago{" "}
                 </p>
                 <p>Thanks for Sharing this!</p>
+                <img src="https://media.dev.to/cdn-cgi/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F00s8uctceo8kh9mndajn.png" alt="" />
               </div>
             </div>
             <div>
@@ -449,8 +445,23 @@ export default function MainPage() {
                   1 day ago
                 </p>
                 <p>Nice, and amazing post</p>
+                <img src="https://media.dev.to/cdn-cgi/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwixrm7ejmrua4su7agha.jpg" alt="" />
               </div>
+              
             </div>
+            <div className="bg-neutral-200 border text-md p-2 m-2 rounded ml-5 mr-5">
+              <div className="p-2 m-2">
+                <p className="">
+                  <a className="font-bold" href="">
+                    Roman
+                  </a>{" "}
+                  1 day ago
+                </p>
+                <p><h2>Nice, and amazing post</h2></p>
+                <img src="https://media.dev.to/cdn-cgi/image/width=775%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwixrm7ejmrua4su7agha.jpg" alt="" />
+              </div>  
+            </div>
+ 
           </div>
         </div>
 
